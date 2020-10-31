@@ -8,7 +8,7 @@ class UserService {
     });
 
     const logins = response.data.items.map((item) => item.login);
-
+    console.log(logins);
     const items = [];
 
     for (let i = 0; i < logins.length; i++) {
