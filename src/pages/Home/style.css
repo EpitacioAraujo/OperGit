@@ -1,0 +1,55 @@
+main {
+  height: 100vh;
+  max-width: 1200px;
+
+  margin: auto;
+  display: grid;
+
+  grid-template-areas:
+    "description log logo"
+    "description log logo"
+    "description log logo";
+}
+
+.description {
+  grid-area: "description";
+
+  margin-top: 100px;
+}
+
+.presentation {
+  font-weight: 600;
+  font-size: 5rem;
+
+  color: var(--light);
+}
+
+.go-to-search {
+  margin-top: 50px;
+
+  padding: 10px 20px;
+
+  background-color: transparent;
+
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 180px;
+  border-color: var(--primary-color);
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.go-to-search:hover {
+  color: var(--primary-color-dark);
+  border-color: var(--primary-color-dark);
+}
+
+.logo {
+  grid-area: "logo";
+  width: 600px;
+  height: 600px;
+
+  margin-top: auto;
+  margin-right: 0px;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root {
+  font-size: 60%;
+
+  --primary-color: #57b952;
+  --primary-color-dark: #459f40;
+  --background: #283b4f;
+  --background-secondary: #596374;
+
+  --card-repositories-light: #f5f6fa;
+  --card-repositories-border-light: #dcdde1;
+
+  --card-user-light: #ecf0f1;
+
+  --font-light: #fff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  outline: none;
+  overflow-x: hidden;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  background-color: var(--background-secondary);
+
+  font: 500 1.6rem Questrial;
+  color: var(--font-light);
+}
+
+button,
+input,
+p {
+  font: 500 3rem Questrial;
+  color: var(--primary-color);
+}

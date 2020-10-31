@@ -1,0 +1,115 @@
+.modal-view-profile {
+  width: 800px;
+  max-height: 80vh;
+  margin: auto;
+  margin-top: 50px;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  background-color: var(--card-user-light);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.container-modal-view-profile {
+  max-width: 760px;
+  height: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-header {
+  width: 100%;
+  background-color: var(--card-user-light);
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid var(--background-secondary);
+}
+
+.modal-profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+
+  background-color: var(--background-secondary);
+}
+
+.modal-presentation {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.modal-primary-title {
+  font: 800 3.5rem Questrial;
+  color: var(--background);
+}
+
+.modal-secondary-title {
+  font: 500 2rem Questrial;
+  color: var(--background-secondary);
+}
+
+.button-close-modal {
+  width: 50px;
+  height: 50px;
+
+  margin-bottom: auto;
+
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.button-close-modal .close-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.biography {
+  flex: 1;
+  flex-wrap: wrap;
+
+  text-align: justify;
+}
+
+.social {
+  margin: 20px 0px 20px 0px;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.users-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.follow {
+  margin-left: 10px;
+
+  font-size: 1.5rem;
+}
